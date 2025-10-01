@@ -1,8 +1,8 @@
 # FILE NAME - convert_C_to_F_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Rina Warren
+# DATE: October 1, 2025
+# BRIEF DESCRIPTION:  User chooses to convert temperatures
 
 
 
@@ -15,8 +15,25 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+def main():
+    convert_c_to_f()
+def convert_c_to_f():
+   print('  ===== Temperature Converter =====\n  1. Convert from Celsius to Fahrenheit\n  2. Convert from Fahrenheit to Celsius\n')
+   
+   choice=input('Please choose from the above menu: ')
+   temperature = int(input('Enter a temperature to convert:'))
+   
+   celsius = temperature * 9/5 + 32
+   fahrenheit= (temperature - 32 ) * 5/9
+   
+   if choice == 1:
+       print(f'{temperature} degrees Celsius is {fahrenheit} degrees Fahrenheit.')
+   else:
+       print(f'{temperature}degrees Fahrenheit is {celsius} degrees Celsius')
+        
 
 
+main()
 
 
 
