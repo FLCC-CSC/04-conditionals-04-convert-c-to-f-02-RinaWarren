@@ -15,25 +15,23 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
-def main():
-    convert_c_to_f()
-def convert_c_to_f():
-   print('  ===== Temperature Converter =====\n  1. Convert from Celsius to Fahrenheit\n  2. Convert from Fahrenheit to Celsius\n')
+print('===== Temperature Converter =====')
+print('  1. Convert from Celsius to Fahrenheit\n  2. Convert from Fahrenheit to Celsius\n')
    
-   choice=input('Please choose from the above menu: ')
-   temperature = float(input('Enter a temperature to convert: '))
+choice=input('Please choose from the above menu: ')
+temperature = float(input('Enter a temperature to convert: '))
    
-   c_to_f = temperature * 9/5 + 32
-   f_to_c= (temperature - 32 ) * 5/9
+c_to_f = temperature * 9/5 + 32
+f_to_c= (temperature - 32 ) * 5/9
    
-   if choice == '1':
+if choice == '1':
        print(f'\n{temperature} degrees Celsius is {c_to_f} degrees Fahrenheit.')
-   else:
+else:
        print(f'\n{temperature} degrees Fahrenheit is {f_to_c} degrees Celsius')
         
 
 
-main()
+
 
 
 
@@ -109,7 +107,7 @@ Enter a temperature to convert: -40
 '''
 
 1. What is one lesson you learned in this lab?
-
+really, really pay attention to where you are plugging in your formulas or you will end up backwards
 
 
 
