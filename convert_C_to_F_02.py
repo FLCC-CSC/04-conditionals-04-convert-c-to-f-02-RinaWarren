@@ -28,7 +28,7 @@ f_to_c= (temperature - 32 ) * 5/9
 if choice == '1':
        print(f'\n{temperature} degrees Celsius is {c_to_f} degrees Fahrenheit.')
 elif choice == '2':
-       print(f'\n{temperature} degrees Fahrenheit is {f_to_c} degrees Celsius')
+       print(f'\n{temperature} degrees Fahrenheit is {f_to_c} degrees Celsius.')
 else:
        print()
         
